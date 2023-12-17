@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.fileexplorer.adapter.search.SearchSuggestItemView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:textSize="@dimen/secondary_text_size"
+        android:textColor="@color/text_color_primary"
+        android:gravity="center"
+        android:id="@id/item_view"
+        android:background="@drawable/search_app_tag_bg"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/search_suggest_item_view_height"
+        android:layout_marginTop="8.0dip"
+        android:fontFamily="sans-serif"
+        android:paddingStart="@dimen/suggest_layout_margin"
+        android:paddingEnd="@dimen/suggest_layout_margin"
+        android:layout_marginEnd="@dimen/suggest_layout_margin_end" />
+</com.android.fileexplorer.adapter.search.SearchSuggestItemView>

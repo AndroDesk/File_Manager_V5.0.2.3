@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:tag="group_header"
+    android:background="@color/fe_primary_color"
+    android:layout_width="fill_parent"
+    android:layout_height="@dimen/group_header_height"
+    android:layoutDirection="locale"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:id="@id/tv_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        style="@style/GroupHeaderTitle" />
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true">
+        <RelativeLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@id/secondary_total_count"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/GroupHeaderTitle" />
+            <ImageView
+                android:id="@id/iv_indicator"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/icon_recent_expand_collapse"
+                android:layout_alignTop="@id/secondary_total_count"
+                android:layout_alignBottom="@id/secondary_total_count"
+                android:layout_marginStart="4.0dip"
+                android:layout_toEndOf="@id/secondary_total_count" />
+        </RelativeLayout>
+        <TextView
+            android:textSize="@dimen/fab_menu_item_text_size"
+            android:textColor="@color/text_color_select_all"
+            android:gravity="center"
+            android:id="@id/select_all"
+            android:background="@drawable/select_all_bg"
+            android:paddingLeft="11.0dip"
+            android:paddingRight="11.0dip"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/select_all_textview_height"
+            android:minWidth="62.0dip"
+            android:text="@string/miuix_appcompat_select_all"
+            android:paddingHorizontal="11.0dip" />
+    </FrameLayout>
+</RelativeLayout>
