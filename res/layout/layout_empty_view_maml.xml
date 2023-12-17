@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.fileexplorer.view.EmptyView
+    android:layout_gravity="center"
+    android:id="@id/empty_view_maml"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:contentDescription="@string/no_file"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <miuix.androidbasewidget.widget.ProgressBar
+        android:layout_gravity="center"
+        android:id="@id/progressbar"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:importantForAccessibility="no" />
+    <ImageView
+        android:layout_gravity="center_horizontal"
+        android:id="@id/empty_image_view"
+        android:visibility="gone"
+        android:layout_width="@dimen/empty_image_width"
+        android:layout_height="@dimen/empty_image_height"
+        android:layout_marginBottom="@dimen/empty_maml_margin_bottom" />
+    <TextView
+        android:textSize="@dimen/no_permission_size"
+        android:textColor="@color/file_grid_text_color"
+        android:gravity="center"
+        android:layout_gravity="top"
+        android:id="@id/empty_message"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/empty_msg_margin_top"
+        android:text="@string/no_file"
+        android:importantForAccessibility="no"
+        android:fontFamily="sans-serif" />
+</com.android.fileexplorer.view.EmptyView>

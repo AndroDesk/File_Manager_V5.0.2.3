@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector
+    android:height="@dimen/actionbar_icon_size"
+    android:width="@dimen/actionbar_icon_size"
+    android:viewportWidth="40.0"
+    android:viewportHeight="40.0"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <path
+        android:fillColor="#ff000000"
+        android:pathData="M17.3662,28.4594C17.2779,28.4111 17.1949,28.3496 17.1202,28.2749L10.5019,21.6566C10.0801,21.2348 10.0801,20.551 10.5019,20.1292C10.9236,19.7075 11.6075,19.7075 12.0292,20.1292L17.7991,25.8991L28.1199,11.6938C28.4705,11.2113 29.1459,11.1043 29.6284,11.4549C30.111,11.8055 30.218,12.4809 29.8674,12.9634L18.8129,28.1786C18.477,28.6409 17.8431,28.7585 17.3662,28.4594Z"
+        android:fillAlpha="0.8"
+        android:fillType="evenOdd" />
+</vector>

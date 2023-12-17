@@ -1,0 +1,22 @@
+.class synthetic Lmiui/cloud/CloudRequestUtils$1;
+.super Ljava/lang/Object;
+.source "CloudRequestUtils.java"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lmiui/cloud/CloudRequestUtils;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x1009
+    name = null
+.end annotation
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .registers 1
+
+    return-void
+.end method

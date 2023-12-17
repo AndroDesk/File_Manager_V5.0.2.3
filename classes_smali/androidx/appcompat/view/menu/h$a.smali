@@ -1,0 +1,30 @@
+.class public interface abstract Landroidx/appcompat/view/menu/h$a;
+.super Ljava/lang/Object;
+.source "MenuBuilder.java"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Landroidx/appcompat/view/menu/h;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x609
+    name = "a"
+.end annotation
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .registers 1
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public abstract onMenuItemSelected(Landroidx/appcompat/view/menu/h;Landroid/view/MenuItem;)Z
+.end method
+
+.method public abstract onMenuModeChange(Landroidx/appcompat/view/menu/h;)V
+.end method

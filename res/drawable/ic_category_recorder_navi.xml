@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector
+    android:height="26.0dip"
+    android:width="26.0dip"
+    android:viewportWidth="26.0"
+    android:viewportHeight="26.0"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt">
+    <path
+        android:fillColor="@drawable/$ic_category_recorder_navi__0"
+        android:pathData="M4.5,2L21.5,2A2.5,2.5 0,0 1,24 4.5L24,21.5A2.5,2.5 0,0 1,21.5 24L4.5,24A2.5,2.5 0,0 1,2 21.5L2,4.5A2.5,2.5 0,0 1,4.5 2z" />
+    <path
+        android:fillColor="@drawable/$ic_category_recorder_navi__1"
+        android:pathData="M19.238,13.918L19.238,13.918A0.28,0.28 135,0 0,19.518 13.638L19.518,12.416A0.28,0.28 135,0 0,19.238 12.136L19.238,12.136A0.28,0.28 135,0 0,18.958 12.416L18.958,13.638A0.28,0.28 135,0 0,19.238 13.918z" />
+    <path
+        android:fillColor="@drawable/$ic_category_recorder_navi__2"
+        android:pathData="M17.991,14.402L17.991,14.402A0.28,0.28 135,0 0,18.271 14.122L18.271,11.932A0.28,0.28 135,0 0,17.991 11.652L17.991,11.652A0.28,0.28 135,0 0,17.71 11.932L17.71,14.122A0.28,0.28 135,0 0,17.991 14.402z" />
+    <path
+        android:fillColor="@drawable/$ic_category_recorder_navi__3"
+        android:pathData="M16.743,14.862L16.743,14.862A0.28,0.28 135,0 0,17.023 14.582L17.023,11.472A0.28,0.28 135,0 0,16.743 11.192L16.743,11.192A0.28,0.28 135,0 0,16.462 11.472L16.462,14.582A0.28,0.28 135,0 0,16.743 14.862z" />
+    <path
+        android:fillColor="@drawable/$ic_category_recorder_navi__4"
+        android:pathData="M15.495,15.83L15.495,15.83A0.28,0.28 135,0 0,15.775 15.55L15.775,10.504A0.28,0.28 135,0 0,15.495 10.224L15.495,10.224A0.28,0.28 135,0 0,15.215 10.504L15.215,15.55A0.28,0.28 135,0 0,15.495 15.83z" />
+    <path
+        android:fillColor="@drawable/$ic_category_recorder_navi__5"
+        android:pathData="M14.247,17.409L14.247,17.409A0.28,0.28 135,0 0,14.528 17.129L14.528,8.926A0.28,0.28 135,0 0,14.247 8.646L14.247,8.646A0.28,0.28 135,0 0,13.967 8.926L13.967,17.129A0.28,0.28 135,0 0,14.247 17.409z" />
+    <path
+        android:fillColor="@drawable/$ic_category_recorder_navi__6"
+        android:pathData="M20.485,13.647L20.485,13.647A0.28,0.28 135,0 0,20.765 13.367L20.765,12.687A0.28,0.28 135,0 0,20.485 12.407L20.485,12.407A0.28,0.28 45,0 0,20.205 12.687L20.205,13.367A0.28,0.28 135,0 0,20.485 13.647z" />
+    <path
+        android:fillColor="@drawable/$ic_category_recorder_navi__7"
+        android:pathData="M21.733,13.604L21.733,13.604A0.28,0.28 135,0 0,22.013 13.324L22.013,12.731A0.28,0.28 135,0 0,21.733 12.45L21.733,12.45A0.28,0.28 45,0 0,21.453 12.731L21.453,13.324A0.28,0.28 135,0 0,21.733 13.604z" />
+    <path
+        android:fillColor="@drawable/$ic_category_recorder_navi__8"
+        android:pathData="M22.981,13.521L22.981,13.521A0.28,0.28 135,0 0,23.261 13.241L23.261,12.813A0.28,0.28 135,0 0,22.981 12.533L22.981,12.533A0.28,0.28 135,0 0,22.701 12.813L22.701,13.241A0.28,0.28 135,0 0,22.981 13.521z" />
+    <path
+        android:fillColor="@drawable/$ic_category_recorder_navi__9"
+        android:pathData="M4.266,12.136L4.266,12.136A0.28,0.28 0,0 1,4.546 12.416L4.546,13.638A0.28,0.28 0,0 1,4.266 13.919L4.266,13.919A0.28,0.28 0,0 1,3.986 13.638L3.986,12.416A0.28,0.28 0,0 1,4.266 12.136z"
+        android:fillAlpha="0.4" />
+    <path
+        android:fillColor="@drawable/$ic_category_recorder_navi__10"
+        android:pathData="M8.009,9.545L8.009,9.545A0.28,0.28 0,0 1,8.289 9.825L8.289,16.23A0.28,0.28 0,0 1,8.009 16.51L8.009,16.51A0.28,0.28 0,0 1,7.729 16.23L7.729,9.825A0.28,0.28 0,0 1,8.009 9.545z"
+        android:fillAlpha="0.4" />
+    <path
+        android:fillColor="@drawable/$ic_category_recorder_navi__11"
+        android:pathData="M6.762,11.005L6.762,11.005A0.28,0.28 0,0 1,7.042 11.285L7.042,14.769A0.28,0.28 0,0 1,6.762 15.05L6.762,15.05A0.28,0.28 0,0 1,6.481 14.769L6.481,11.285A0.28,0.28 0,0 1,6.762 11.005z"
+        android:fillAlpha="0.4" />
+    <path
+        android:fillColor="@drawable/$ic_category_recorder_navi__12"
+        android:pathData="M5.514,10.443L5.514,10.443A0.28,0.28 0,0 1,5.794 10.723L5.794,15.331A0.28,0.28 0,0 1,5.514 15.611L5.514,15.611A0.28,0.28 0,0 1,5.234 15.331L5.234,10.723A0.28,0.28 0,0 1,5.514 10.443z"
+        android:fillAlpha="0.4" />
+    <path
+        android:fillColor="@drawable/$ic_category_recorder_navi__13"
+        android:pathData="M3.019,11.652L3.019,11.652A0.28,0.28 0,0 1,3.299 11.932L3.299,14.122A0.28,0.28 0,0 1,3.019 14.402L3.019,14.402A0.28,0.28 0,0 1,2.739 14.122L2.739,11.932A0.28,0.28 0,0 1,3.019 11.652z"
+        android:fillAlpha="0.4" />
+    <path
+        android:fillColor="@drawable/$ic_category_recorder_navi__14"
+        android:pathData="M9.257,7.298L9.257,7.298A0.28,0.28 0,0 1,9.537 7.578L9.537,18.477A0.28,0.28 0,0 1,9.257 18.757L9.257,18.757A0.28,0.28 0,0 1,8.977 18.477L8.977,7.578A0.28,0.28 0,0 1,9.257 7.298z"
+        android:fillAlpha="0.4" />
+    <path
+        android:fillColor="@drawable/$ic_category_recorder_navi__15"
+        android:pathData="M10.505,10.224L10.505,10.224A0.28,0.28 0,0 1,10.785 10.504L10.785,15.55A0.28,0.28 0,0 1,10.505 15.83L10.505,15.83A0.28,0.28 0,0 1,10.225 15.55L10.225,10.504A0.28,0.28 0,0 1,10.505 10.224z"
+        android:fillAlpha="0.4" />
+    <path
+        android:fillColor="@drawable/$ic_category_recorder_navi__16"
+        android:pathData="M11.752,8.816L11.752,8.816A0.28,0.28 0,0 1,12.032 9.096L12.032,16.959A0.28,0.28 0,0 1,11.752 17.239L11.752,17.239A0.28,0.28 0,0 1,11.472 16.959L11.472,9.096A0.28,0.28 0,0 1,11.752 8.816z"
+        android:fillAlpha="0.4" />
+    <path
+        android:fillColor="@drawable/$ic_category_recorder_navi__17"
+        android:pathData="M12.999,21.634L12.999,21.634A0.28,0.28 135,0 0,13.28 21.354L13.28,4.646A0.28,0.28 135,0 0,12.999 4.366L12.999,4.366A0.28,0.28 135,0 0,12.719 4.646L12.719,21.354A0.28,0.28 135,0 0,12.999 21.634z" />
+    <path
+        android:fillColor="#fffa311b"
+        android:pathData="M20.358,4.882L20.358,4.882A0.759,0.759 0,0 1,21.117 5.641L21.117,5.641A0.759,0.759 0,0 1,20.358 6.4L20.358,6.4A0.759,0.759 0,0 1,19.6 5.641L19.6,5.641A0.759,0.759 0,0 1,20.358 4.882z" />
+</vector>

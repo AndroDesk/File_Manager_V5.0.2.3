@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:paddingTop="@dimen/dialog_message_vertical_padding"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:textSize="@dimen/request_permission_text_size"
+        android:gravity="top"
+        android:id="@android:id/message"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/request_document_permission" />
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/request_document_permission_dialog_height"
+        android:src="@drawable/request_document_permission_step"
+        android:scaleType="fitEnd"
+        android:layout_below="@android:id/message" />
+</RelativeLayout>

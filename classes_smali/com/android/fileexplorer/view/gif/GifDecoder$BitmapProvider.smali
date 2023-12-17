@@ -1,0 +1,42 @@
+.class interface abstract Lcom/android/fileexplorer/view/gif/GifDecoder$BitmapProvider;
+.super Ljava/lang/Object;
+.source "GifDecoder.java"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/android/fileexplorer/view/gif/GifDecoder;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x609
+    name = "BitmapProvider"
+.end annotation
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .registers 1
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public abstract obtain(IILandroid/graphics/Bitmap$Config;)Landroid/graphics/Bitmap;
+.end method
+
+.method public abstract obtainByteArray(I)[B
+.end method
+
+.method public abstract obtainIntArray(I)[I
+.end method
+
+.method public abstract release(Landroid/graphics/Bitmap;)V
+.end method
+
+.method public abstract release([B)V
+.end method
+
+.method public abstract release([I)V
+.end method

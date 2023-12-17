@@ -1,0 +1,22 @@
+.class synthetic Lcom/android/fileexplorer/adapter/AppTagListAdapter$1;
+.super Ljava/lang/Object;
+.source "AppTagListAdapter.java"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/android/fileexplorer/adapter/AppTagListAdapter;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x1009
+    name = null
+.end annotation
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .registers 1
+
+    return-void
+.end method

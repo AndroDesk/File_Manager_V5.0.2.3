@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:scrollbars="none"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:paddingStart="@dimen/info_dialog_padding"
+    android:paddingEnd="@dimen/info_dialog_padding"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+            <TextView
+                android:gravity="end"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/file_info_location"
+                style="@style/dialog_file_info_title_style" />
+            <TextView
+                android:textColor="@color/info_dialog_text_blue"
+                android:id="@id/information_location"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textDirection="locale"
+                style="@style/dialog_file_info_style" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:id="@id/tr_size"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+            <TextView
+                android:gravity="end"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/file_info_size"
+                style="@style/dialog_file_info_title_style" />
+            <TextView
+                android:id="@id/information_size"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textIsSelectable="true"
+                style="@style/dialog_file_info_style" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+            <TextView
+                android:gravity="end"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/file_info_modified"
+                style="@style/dialog_file_info_title_style" />
+            <TextView
+                android:id="@id/information_modified"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textIsSelectable="true"
+                android:textDirection="locale"
+                style="@style/dialog_file_info_style" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:id="@id/tr_readable"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+            <TextView
+                android:gravity="end"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/file_info_canread"
+                style="@style/dialog_file_info_title_style" />
+            <TextView
+                android:id="@id/information_canread"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textIsSelectable="true"
+                style="@style/dialog_file_info_style" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:id="@id/tr_writeable"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+            <TextView
+                android:gravity="end"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/file_info_canwrite"
+                style="@style/dialog_file_info_title_style" />
+            <TextView
+                android:id="@id/information_canwrite"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textIsSelectable="true"
+                style="@style/dialog_file_info_style" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:id="@id/tr_hidden"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+            <TextView
+                android:gravity="end"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/file_info_ishidden"
+                style="@style/dialog_file_info_title_style" />
+            <TextView
+                android:id="@id/information_ishidden"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textIsSelectable="true"
+                style="@style/dialog_file_info_style" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

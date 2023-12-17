@@ -1,0 +1,22 @@
+.class public interface abstract Landroidx/core/widget/NestedScrollView$c;
+.super Ljava/lang/Object;
+.source "NestedScrollView.java"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Landroidx/core/widget/NestedScrollView;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x609
+    name = "c"
+.end annotation
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .registers 1
+
+    return-void
+.end method

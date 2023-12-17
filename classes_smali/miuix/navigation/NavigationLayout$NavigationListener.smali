@@ -1,0 +1,39 @@
+.class public interface abstract Lmiuix/navigation/NavigationLayout$NavigationListener;
+.super Ljava/lang/Object;
+.source "NavigationLayout.java"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lmiuix/navigation/NavigationLayout;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x609
+    name = "NavigationListener"
+.end annotation
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .registers 1
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public abstract onDrawerClosed()V
+.end method
+
+.method public abstract onDrawerDragStateChanged(I)V
+.end method
+
+.method public abstract onDrawerEnableStateChange(Z)V
+.end method
+
+.method public abstract onDrawerOpened()V
+.end method
+
+.method public abstract onDrawerSlide(F)V
+.end method

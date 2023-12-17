@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:icon="@drawable/ic_menu_confirm"
+        android:id="@id/pick_confirm"
+        android:title="@string/confirm"
+        android:showAsAction="ifRoom" />
+    <item
+        android:icon="@drawable/ic_menu_discard"
+        android:id="@id/pick_cancel"
+        android:title="@string/cancel"
+        android:showAsAction="ifRoom" />
+    <item
+        android:id="@id/sort"
+        android:title="@string/menu_item_sort">
+        <menu>
+            <item
+                android:id="@id/sort_name"
+                android:title="@string/menu_item_sort_name" />
+            <item
+                android:id="@id/sort_size_desc"
+                android:title="@string/sort_size_desc" />
+            <item
+                android:id="@id/sort_size_asc"
+                android:title="@string/sort_size_asc" />
+            <item
+                android:id="@id/sort_type"
+                android:title="@string/menu_item_sort_type" />
+            <item
+                android:id="@id/sort_date"
+                android:title="@string/menu_item_sort_date" />
+            <item
+                android:id="@id/sort_time"
+                android:title="@string/menu_item_sort_add_time" />
+        </menu>
+    </item>
+    <item
+        android:id="@id/refresh"
+        android:title="@string/operation_refresh" />
+</menu>

@@ -1,0 +1,39 @@
+.class public interface abstract Landroidx/activity/result/a;
+.super Ljava/lang/Object;
+.source "ActivityResultCallback.java"
+
+
+# annotations
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "<O:",
+        "Ljava/lang/Object;",
+        ">",
+        "Ljava/lang/Object;"
+    }
+.end annotation
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .registers 1
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public abstract onActivityResult(Ljava/lang/Object;)V
+    .param p1  # Ljava/lang/Object;
+        .annotation build Landroid/annotation/SuppressLint;
+            value = {
+                "UnknownNullness"
+            }
+        .end annotation
+    .end param
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(TO;)V"
+        }
+    .end annotation
+.end method

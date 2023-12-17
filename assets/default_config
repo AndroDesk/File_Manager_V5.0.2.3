@@ -1,0 +1,248 @@
+{
+  "poslist": [
+      {
+      "adtype": 1,
+      "placeid": "1.301.1.1",
+      "info": [
+        {
+          "name": "fb_bidding",
+          "parameter": "1538756466156210_4241487032549793",
+          "weight": 1
+        },
+        {
+          "name": "ab",
+          "parameter": "ca-app-pub-4062377952200160/1311388653",
+          "weight": 4
+        },
+        {
+          "name": "ab_h",
+          "parameter": "ca-app-pub-4062377952200160/2181571404",
+          "weight": 5
+        },
+        {
+          "name": "ab_b",
+          "parameter": "ca-app-pub-4062377952200160/6671796508",
+          "weight": 2
+        },
+        {
+          "name": "mi",
+          "parameter": "1.301.1.1",
+          "weight": 3
+        }
+      ]
+    },
+    {
+      "adtype": 1,
+      "placeid": "1.301.1.2",
+      "info": [
+        {
+          "name": "fb_bidding",
+          "parameter": "1538756466156210_4261053653926464",
+          "weight": 1
+        },
+        {
+          "name": "mi",
+          "parameter": "1.301.1.2",
+          "weight": 3
+        },
+        {
+          "name": "ab",
+          "parameter": "ca-app-pub-4062377952200160/1822196872",
+          "weight": 2
+        },
+        {
+          "name": "ab_h",
+          "parameter": "ca-app-pub-4062377952200160/5579659380",
+          "weight": 5
+        },
+        {
+          "name": "ab_b",
+          "parameter": "ca-app-pub-4062377952200160/3493903165",
+          "weight": 4
+        }
+      ]
+    },
+    {
+      "adtype": 1,
+      "placeid": "1.301.1.3",
+      "info": [
+        {
+          "name": "fb_bidding",
+          "parameter": "1538756466156210_4120724301292734",
+          "weight": 1
+        },
+        {
+          "name": "mi",
+          "parameter": "1.301.1.3",
+          "weight": 2
+        },
+        {
+          "name": "ab",
+          "parameter": "ca-app-pub-4062377952200160/3120838932",
+          "weight": 3
+        }
+      ]
+    },
+    {
+      "adtype": 3,
+      "placeid": "1.301.3.1",
+      "info": [
+        {
+          "name": "mi",
+          "parameter": "1.301.3.1",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "adtype": 1,
+      "placeid": "1.301.1.5",
+      "info": [
+        {
+          "name": "fb_bidding",
+          "parameter": "1538756466156210_4261109030587593",
+          "weight": 1
+        },
+        {
+          "name": "mi",
+          "parameter": "1.301.1.5",
+          "weight": 2
+        },
+        {
+          "name": "ab",
+          "parameter": "ca-app-pub-4062377952200160/5106358464",
+          "weight": 3
+        }
+      ]
+    },
+    {
+      "adtype": 18,
+      "placeid": "1.301.17.2",
+      "info": [
+        {
+          "name": "abi",
+          "parameter": "ca-app-pub-4062377952200160/9168330007",
+          "weight": 2
+        },
+        {
+          "name": "mii",
+          "parameter": "1.301.17.2",
+          "weight": 3
+        },
+        {
+          "name": "abi_h",
+          "parameter": "ca-app-pub-4062377952200160/7104533702",
+          "weight": 5
+        },
+        {
+          "name": "abi_b",
+          "parameter": "ca-app-pub-4062377952200160/1645157618",
+          "weight": 4
+        },
+        {
+          "name": "fbi_bidding",
+          "parameter": "1538756466156210_4303448849686944",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "adtype": 18,
+      "placeid": "1.301.17.4",
+      "info": [
+        {
+          "name": "abi",
+          "parameter": "ca-app-pub-4062377952200160/2922479689",
+          "weight": 2
+        },
+        {
+          "name": "mii",
+          "parameter": "1.301.17.4",
+          "weight": 3
+        },
+        {
+          "name": "abi_h",
+          "parameter": "ca-app-pub-4062377952200160/9311345900",
+          "weight": 5
+        },
+        {
+          "name": "abi_b",
+          "parameter": "ca-app-pub-4062377952200160/5563672582",
+          "weight": 4
+        },
+        {
+          "name": "fbi_bidding",
+          "parameter": "1538756466156210_4440257686006059",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "adtype": 1,
+      "placeid": "1.301.1.8",
+      "extra": "{\"cardType\":\"nativeBannerAd\"}",
+      "info": [
+        {
+          "name": "fb_bidding",
+          "parameter": "1538756466156210_4261119780586518",
+          "weight": 1
+        },
+        {
+          "name": "mi",
+          "parameter": "1.301.1.8",
+          "weight": 2
+        },
+        {
+          "name": "ab",
+          "parameter": "ca-app-pub-4062377952200160/8760480320",
+          "weight": 3
+        }
+      ]
+    },
+    {
+      "adtype": 1,
+      "placeid": "1.301.1.9",
+      "extra": "{\"cardType\":\"nativeBannerAd\"}",
+      "info": [
+        {
+          "name": "fb_bidding",
+          "parameter": "1538756466156210_4261080480590448",
+          "weight": 1
+        },
+        {
+          "name": "mi",
+          "parameter": "1.301.1.9",
+          "weight": 2
+        },
+        {
+          "name": "ab",
+          "parameter": "ca-app-pub-4062377952200160/4438091934",
+          "weight": 3
+        }
+      ]
+    },
+    {
+      "adtype": 1,
+      "placeid": "1.301.1.11",
+      "extra": "{\"cardType\":\"nativeBannerAd\"}",
+      "info": [
+        {
+          "name": "fb_bidding",
+          "parameter": "1538756466156210_4261085947256568",
+          "weight": 1
+        },
+        {
+          "name": "mi",
+          "parameter": "1.301.1.11",
+          "weight": 2
+        },
+        {
+          "name": "ab",
+          "parameter": "ca-app-pub-4062377952200160/9376268433",
+          "weight": 3
+        }
+      ]
+    }
+  ],
+  "extend": ""
+}

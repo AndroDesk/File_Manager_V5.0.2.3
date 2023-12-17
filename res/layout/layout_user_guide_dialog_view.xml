@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.android.fileexplorer.view.ScrollControlViewPager
+        android:id="@id/guide_layout"
+        android:layout_width="@dimen/guide_content_width"
+        android:layout_height="@dimen/guide_content_height" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:id="@id/indicator_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20.0dip" />
+</LinearLayout>

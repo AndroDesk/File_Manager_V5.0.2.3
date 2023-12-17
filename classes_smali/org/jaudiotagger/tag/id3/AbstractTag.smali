@@ -1,0 +1,69 @@
+.class public abstract Lorg/jaudiotagger/tag/id3/AbstractTag;
+.super Lorg/jaudiotagger/tag/id3/AbstractTagItem;
+.source "AbstractTag.java"
+
+
+# static fields
+.field public static final TYPE_TAG:Ljava/lang/String; = "tag"
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .registers 1
+
+    return-void
+.end method
+
+.method public constructor <init>()V
+    .registers 1
+
+    invoke-direct {p0}, Lorg/jaudiotagger/tag/id3/AbstractTagItem;-><init>()V
+
+    return-void
+.end method
+
+.method public constructor <init>(Lorg/jaudiotagger/tag/id3/AbstractTag;)V
+    .registers 2
+
+    invoke-direct {p0, p1}, Lorg/jaudiotagger/tag/id3/AbstractTagItem;-><init>(Lorg/jaudiotagger/tag/id3/AbstractTagItem;)V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public abstract delete(Ljava/io/RandomAccessFile;)V
+.end method
+
+.method public equals(Ljava/lang/Object;)Z
+    .registers 3
+
+    instance-of v0, p1, Lorg/jaudiotagger/tag/id3/AbstractTag;
+
+    if-eqz v0, :cond_c
+
+    invoke-super {p0, p1}, Lorg/jaudiotagger/tag/id3/AbstractTagItem;->equals(Ljava/lang/Object;)Z
+
+    move-result p1
+
+    if-eqz p1, :cond_c
+
+    const/4 p1, 0x1
+
+    goto :goto_d
+
+    :cond_c
+    const/4 p1, 0x0
+
+    :goto_d
+    return p1
+.end method
+
+.method public abstract iterator()Ljava/util/Iterator;
+.end method
+
+.method public abstract seek(Ljava/nio/ByteBuffer;)Z
+.end method
+
+.method public abstract write(Ljava/io/RandomAccessFile;)V
+.end method

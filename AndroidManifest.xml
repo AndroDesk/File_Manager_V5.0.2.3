@@ -1,0 +1,1082 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest
+    package="com.android.fileexplorer"
+    platformBuildVersionCode="33"
+    platformBuildVersionName="13"
+    android:compileSdkVersion="33"
+    android:compileSdkVersionCodename="13"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Izinkan apl membaca setelan Layar utama dan pintasan. -->
+    <uses-permission
+        android:name="com.android.launcher.permission.READ_SETTINGS" />
+    <!-- Izinkan apl mengubah setelan Layar utama dan pintasan. -->
+    <uses-permission
+        android:name="com.android.launcher.permission.WRITE_SETTINGS" />
+    <uses-permission
+        android:name="android.permission.GET_APP_GRANTED_URI_PERMISSIONS" />
+    <!-- Memungkinkan aplikasi melihat informasi tentang jaringan Wi-Fi, misalnya apakah Wi-Fi diaktifkan dan nama perangkat Wi-Fi yang terhubung. -->
+    <uses-permission
+        android:name="android.permission.ACCESS_WIFI_STATE" />
+    <!-- Memungkinkan aplikasi membuat soket jaringan dan menggunakan protokol jaringan khusus. Browser dan aplikasi lain menyediakan sarana untuk mengirim data ke internet sehingga izin ini tidak diperlukan untuk mengirim data ke internet. -->
+    <uses-permission
+        android:name="android.permission.INTERNET" />
+    <!-- Memungkinkan aplikasi menyambung ke dan memutus dari titik akses Wi-Fi, dan mengubah konfigurasi perangkat untuk jaringan Wi-Fi. -->
+    <uses-permission
+        android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission
+        android:name="android.permission.WRITE_SECURE_SETTINGS" />
+    <!-- Mengizinkan aplikasi menulis konten penyimpanan bersama Anda. -->
+    <uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <!-- Mengizinkan aplikasi membaca konten penyimpanan bersama Anda. -->
+    <uses-permission
+        android:name="android.permission.READ_EXTERNAL_STORAGE"
+        android:maxSdkVersion="32" />
+    <uses-permission
+        android:name="android.permission.DELETE_PACKAGES" />
+    <!-- Mengizinkan apl mencegah ponsel tidur. -->
+    <uses-permission
+        android:name="android.permission.WAKE_LOCK" />
+    <!-- Memungkinkan aplikasi melihat informasi tentang koneksi jaringan, misalnya jaringan yang ada dan terhubung. -->
+    <uses-permission
+        android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <!-- Memungkinkan aplikasi mendapatkan daftar akun yang dikenal oleh ponsel. Ini mungkin termasuk akun yang dibuat oleh aplikasi yang telah Anda instal. -->
+    <uses-permission
+        android:name="android.permission.GET_ACCOUNTS" />
+    <!-- Mengizinkan apl mengambil kode, data, dan ukuran temboloknya -->
+    <uses-permission
+        android:name="android.permission.GET_PACKAGE_SIZE" />
+    <uses-permission
+        android:name="android.permission.DELETE_CACHE_FILES" />
+    <uses-permission
+        android:name="android.permission.USE_CREDENTIALS" />
+    <uses-permission
+        android:name="android.permission.MANAGE_ACCOUNTS" />
+    <uses-permission
+        android:name="android.permission.READ_PRIVILEGED_PHONE_STATE"
+        android:maxSdkVersion="28" />
+    <uses-permission
+        android:name="android.permission.GET_ACCOUNTS_PRIVILEGED"
+        android:maxSdkVersion="28" />
+    <uses-permission
+        android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <!-- Mengizinkan aplikasi menambahkan pintasan Layar Utama tanpa tindakan dari pengguna. -->
+    <uses-permission
+        android:name="com.android.launcher.permission.INSTALL_SHORTCUT" />
+    <!-- Memungkinkan aplikasi mengambil informasi tentang tugas yang dijalankan saat ini dan baru-baru ini. Izin ini memungkinkan aplikasi menemukan informasi tentang aplikasi mana yang digunakan pada perangkat. -->
+    <uses-permission
+        android:name="android.permission.GET_TASKS" />
+    <!-- Mengizinkan aplikasi untuk mengendalikan vibrator. -->
+    <uses-permission
+        android:name="android.permission.VIBRATE" />
+    <uses-permission
+        android:name="android.permission.WRITE_MEDIA_STORAGE" />
+    <uses-permission
+        android:name="android.permission.ACCESS_ALL_EXTERNAL_STORAGE" />
+    <uses-permission
+        android:name="android.permission.MANAGE_USERS" />
+    <uses-permission
+        android:name="android.permission.INTERACT_ACROSS_USERS" />
+    <uses-permission
+        android:name="com.xiaomi.permission.AUTH_SERVICE" />
+    <!-- Mengizinkan apl memodifikasi data setelan sistem. Apl berbahaya dapat merusak konfigurasi sistem anda. -->
+    <uses-permission
+        android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission
+        android:name="android.permission.ACCESS_KEYGUARD_SECURE_STORAGE" />
+    <uses-permission
+        android:name="com.miui.cleanmaster.permission.InstallCleanMaster" />
+    <!-- Mengizinkan aplikasi meminta pemasangan paket. -->
+    <uses-permission
+        android:name="android.permission.REQUEST_INSTALL_PACKAGES" />
+    <uses-permission
+        android:name="android.permission.MANAGE_EXTERNAL_STORAGE" />
+    <!-- Mengizinkan aplikasi melihat semua paket yang diinstal. -->
+    <uses-permission
+        android:name="android.permission.QUERY_ALL_PACKAGES" />
+    <!-- Aplikasi ini dapat muncul di atas aplikasi lain atau bagian lain pada layar. Ini dapat mengganggu penggunaan aplikasi biasa dan mengubah kemunculan aplikasi lainnya. -->
+    <uses-permission
+        android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <!-- Mengizinkan aplikasi membaca file gambar dari penyimpanan bersama. -->
+    <uses-permission
+        android:name="android.permission.READ_MEDIA_IMAGES" />
+    <!-- Mengizinkan aplikasi membaca file audio dari penyimpanan bersama. -->
+    <uses-permission
+        android:name="android.permission.READ_MEDIA_AUDIO" />
+    <!-- Mengizinkan aplikasi membaca file video dari penyimpanan bersama. -->
+    <uses-permission
+        android:name="android.permission.READ_MEDIA_VIDEO" />
+    <!-- Mengizinkan aplikasi untuk menampilkan notifikasi -->
+    <uses-permission
+        android:name="android.permission.POST_NOTIFICATIONS" />
+    <uses-permission
+        android:name="com.miui.onehop.permission.MIRROR" />
+    <uses-permission
+        android:name="android.permission.SET_PREFERRED_APPLICATIONS" />
+    <permission
+        android:name="com.android.fileexplorer.permission.DIRPARSE"
+        android:protectionLevel="signatureOrSystem" />
+    <permission
+        android:name="com.android.fileexplorer.permission.ACCESS_FILE_CONTENT"
+        android:protectionLevel="signatureOrSystem" />
+    <uses-permission
+        android:name="android.permission.READ_MEDIA_VISUAL_USER_SELECTED" />
+    <uses-permission
+        android:name="com.miui.securitycenter.permission.PERM_USE_INFO" />
+    <uses-permission
+        android:name="com.xiaomi.gallery.permission.CLOUD" />
+    <uses-permission
+        android:name="com.miui.gallery.permission.USE_API" />
+    <uses-permission
+        android:name="com.android.fileexplorer.permission.DIRPARSE" />
+    <uses-permission
+        android:name="com.android.fileexplorer.permission.ACCESS_FILE_CONTENT" />
+    <uses-permission
+        android:name="com.cleanmaster.permission.sdk.clean" />
+    <uses-permission
+        android:name="miui.permission.USE_INTERNAL_GENERAL_API" />
+    <uses-permission
+        android:name="com.mi.android.globallauncher.permission.READ_SETTINGS" />
+    <uses-permission
+        android:name="com.mi.android.globallauncher.permission.WRITE_SETTINGS" />
+    <uses-permission
+        android:name="com.miui.securitycenter.permission.SYSTEM_PERMISSION_DECLARE" />
+    <uses-permission
+        android:name="cn.wps.moffice.lite.permission.BIND_SNAPSHOT_SERVICE" />
+    <!-- Mengizinkan aplikasi menggunakan layanan di latar depan. -->
+    <uses-permission
+        android:name="android.permission.FOREGROUND_SERVICE" />
+    <!-- Memungkinkan aplikasi mengakses fitur telepon perangkat. Izin ini memungkinkan aplikasi menentukan nomor telepon dan ID perangkat, apakah suatu panggilan aktif atau tidak, dan nomor jarak jauh yang terhubung oleh sebuah panggilan. -->
+    <uses-permission
+        android:name="android.permission.READ_PHONE_STATE"
+        android:maxSdkVersion="28" />
+    <uses-permission
+        android:name="com.xiaomi.permission.CLOUD_MANAGER" />
+    <uses-permission
+        android:name="android.permission.AUTHENTICATE_ACCOUNTS" />
+    <uses-permission
+        android:name="android.permission.START_FOREGROUND_SERVICES_FROM_BACKGROUND" />
+    <meta-data
+        android:name="miui_private_label"
+        android:value="PRIVATE_V150" />
+    <permission
+        android:name="com.android.fileexplorer.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+        android:protectionLevel="signature" />
+    <uses-permission
+        android:name="com.android.fileexplorer.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+    <queries>
+        <package
+            android:name="cn.wps.moffice_eng.xiaomi.lite" />
+    </queries>
+    <uses-permission
+        android:name="com.miui.mishare.PERMISSION.NFC" />
+    <application
+        android:theme="@style/Theme.FileExplorer"
+        android:label="@string/app_name"
+        android:icon="@drawable/icon"
+        android:name="com.android.fileexplorer.FileExplorerApplication"
+        android:configChanges="screenSize"
+        android:allowBackup="true"
+        android:largeHeap="true"
+        android:uiOptions="splitActionBarWhenNarrow"
+        android:supportsRtl="true"
+        android:extractNativeLibs="false"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+        android:requestLegacyExternalStorage="true"
+        android:preserveLegacyExternalStorage="true"
+        android:requestRawExternalStorageAccess="true">
+        <property
+            android:name="miui.blurRelaunch"
+            android:value="true" />
+        <meta-data
+            android:name="android.max_aspect"
+            android:value="2.2" />
+        <meta-data
+            android:name="miui.supportAppContinuity"
+            android:value="true" />
+        <meta-data
+            android:name="required_permissions"
+            android:value="android.permission.WRITE_EXTERNAL_STORAGE;android.permission.READ_EXTERNAL_STORAGE;android.permission.POST_NOTIFICATIONS;android.permission.READ_MEDIA_IMAGES;android.permission.READ_MEDIA_VIDEO;android.permission.READ_MEDIA_AUDIO;" />
+        <meta-data
+            android:name="miui.supportRequiredModifiable"
+            android:value="true" />
+        <meta-data
+            android:name="app_hide_enable"
+            android:value="true" />
+        <meta-data
+            android:name="global_app_hide_enable"
+            android:value="true" />
+        <meta-data
+            android:name="app_description_title"
+            android:resource="@string/launcher_icon_remove_description_title" />
+        <meta-data
+            android:name="app_description_content"
+            android:resource="@string/launcher_icon_remove_description_content" />
+        <meta-data
+            android:name="miui.screenOrientation"
+            android:value="1.unspecified,2.portrait,3.unspecified" />
+        <meta-data
+            android:name="is_support_miui_super_clipboard"
+            android:value="true" />
+        <property
+            android:name="android.view.PROPERTY_MIUI_SMOOTH_CORNER_ENABLED"
+            android:value="true" />
+        <activity
+            android:theme="@style/Theme.Preference"
+            android:label="@string/permission_description"
+            android:name="com.android.fileexplorer.activity.PermissionPreferenceActivity"
+            android:exported="true"
+            android:launchMode="singleTop"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:theme="@style/Theme.FileExplorerTab"
+            android:label="@string/app_name"
+            android:name="com.android.fileexplorer.FileExplorerTabActivity"
+            android:exported="true"
+            android:launchMode="singleTop"
+            android:screenOrientation="behind"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize"
+            android:windowSoftInputMode="adjustNothing"
+            android:uiOptions="splitActionBarWhenNarrow">
+            <intent-filter>
+                <action
+                    android:name="android.intent.action.MAIN" />
+                <category
+                    android:name="android.intent.category.DEFAULT" />
+                <category
+                    android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <intent-filter>
+                <action
+                    android:name="android.intent.action.VIEW" />
+                <category
+                    android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action
+                    android:name="miui.intent.action.START_KUAIPAN" />
+                <category
+                    android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action
+                    android:name="miui.intent.action.FORCE_TOUCH_CLEAN" />
+                <category
+                    android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action
+                    android:name="com.android.fileexplorer.search.DOC_PAGE" />
+                <category
+                    android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action
+                    android:name="com.android.fileexplorer.export.VIEW_HOME" />
+                <category
+                    android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action
+                    android:name="com.android.fileexplorer.export.CATEGORY_CHOICE" />
+                <category
+                    android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action
+                    android:name="com.android.fileexplorer.export.START_OEPN_FILE" />
+                <category
+                    android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action
+                    android:name="com.android.fileexplorer.action.Apps" />
+                <category
+                    android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <meta-data
+                android:name="functionindex"
+                android:resource="@xml/functionindex" />
+            <meta-data
+                android:name="miui.dynamic_dpi_relaunch"
+                android:value="false" />
+            <intent-filter>
+                <action
+                    android:name="android.intent.action.SEARCH" />
+                <category
+                    android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action
+                    android:name="com.android.fileexplorer.search" />
+                <category
+                    android:name="android.intent.category.DEFAULT" />
+                <data
+                    android:scheme="content" />
+            </intent-filter>
+            <intent-filter>
+                <action
+                    android:name="android.intent.action.VIEW" />
+                <category
+                    android:name="android.intent.category.DEFAULT" />
+                <category
+                    android:name="android.intent.category.BROWSABLE" />
+                <data
+                    android:scheme="fe"
+                    android:host="fe.miui.com" />
+            </intent-filter>
+            <meta-data
+                android:name="android.app.searchable"
+                android:resource="@xml/searchable" />
+        </activity>
+        <activity-alias
+            android:label="@string/app_name"
+            android:name="com.android.fileexplorer.MainActivity"
+            android:exported="true"
+            android:targetActivity="com.android.fileexplorer.FileExplorerTabActivity" />
+        <activity
+            android:theme="@style/Theme.FileExplorerTab"
+            android:label="@string/app_name"
+            android:name="com.android.fileexplorer.mirror.MirrorFileExplorerTabActivity"
+            android:exported="true"
+            android:process=":miuiplus"
+            android:excludeFromRecents="true"
+            android:screenOrientation="landscape"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+            android:windowSoftInputMode="adjustNothing"
+            android:uiOptions="splitActionBarWhenNarrow"
+            android:showWhenLocked="true">
+            <intent-filter>
+                <action
+                    android:name="miui.intent.action.OUTBOUND_APP" />
+                <category
+                    android:name="android.intent.category.DEFAULT" />
+                <category
+                    android:name="miui.intent.category.OUTBOUND_APP" />
+            </intent-filter>
+            <meta-data
+                android:name="android.app.searchable"
+                android:resource="@xml/searchable" />
+            <meta-data
+                android:name="functionindex"
+                android:resource="@xml/functionindex" />
+            <meta-data
+                android:name="android.app.shortcuts"
+                android:resource="@xml/shortcuts" />
+        </activity>
+        <activity
+            android:theme="@style/Theme.FileActivity.New"
+            android:name="com.android.fileexplorer.activity.FileActivity"
+            android:exported="true"
+            android:launchMode="singleTop"
+            android:screenOrientation="behind"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize">
+            <intent-filter>
+                <action
+                    android:name="android.intent.action.PICK" />
+                <category
+                    android:name="android.intent.category.DEFAULT" />
+                <action
+                    android:name="android.intent.action.MEDIA_MOUNTED" />
+                <action
+                    android:name="android.intent.action.MEDIA_UNMOUNTED" />
+                <data
+                    android:scheme="file" />
+                <data
+                    android:authorities="com.android.fileexplorer.fileprovider"
+                    android:scheme="content" />
+            </intent-filter>
+            <intent-filter>
+                <action
+                    android:name="android.intent.action.PICK" />
+                <category
+                    android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action
+                    android:name="android.intent.action.PICK" />
+                <category
+                    android:name="android.intent.category.DEFAULT" />
+                <data
+                    android:mimeType="*/*"
+                    android:scheme="file" />
+                <data
+                    android:authorities="com.android.fileexplorer.fileprovider"
+                    android:mimeType="*/*"
+                    android:scheme="content" />
+            </intent-filter>
+            <intent-filter>
+                <action
+                    android:name="android.intent.action.PICK" />
+                <category
+                    android:name="android.intent.category.DEFAULT" />
+                <data
+                    android:mimeType="image/*" />
+                <data
+                    android:mimeType="video/*" />
+                <data
+                    android:mimeType="audio/*" />
+            </intent-filter>
+            <intent-filter>
+                <action
+                    android:name="android.intent.action.GET_CONTENT" />
+                <category
+                    android:name="android.intent.category.OPENABLE" />
+                <category
+                    android:name="android.intent.category.DEFAULT" />
+                <data
+                    android:mimeType="*/*" />
+            </intent-filter>
+            <intent-filter>
+                <action
+                    android:name="miui.intent.action.PICK_FOLDER" />
+                <category
+                    android:name="android.intent.category.OPENABLE" />
+                <category
+                    android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action
+                    android:name="miui.intent.action.PICK_MULTIPLE" />
+                <category
+                    android:name="android.intent.category.OPENABLE" />
+                <category
+                    android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action
+                    android:name="miui.intent.action.OPEN" />
+                <category
+                    android:name="android.intent.category.DEFAULT" />
+                <data
+                    android:scheme="file" />
+                <data
+                    android:authorities="com.android.fileexplorer.fileprovider"
+                    android:scheme="content" />
+            </intent-filter>
+            <intent-filter>
+                <action
+                    android:name="miui.intent.action.OPEN" />
+                <category
+                    android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity-alias
+            android:label="@string/move_to"
+            android:name="com.android.fileexplorer.activity.MoveFileActivity"
+            android:exported="true"
+            android:targetActivity="com.android.fileexplorer.activity.FileActivity">
+            <intent-filter>
+                <action
+                    android:name="android.intent.action.VIEW" />
+                <category
+                    android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity-alias>
+        <activity-alias
+            android:label="@string/extract"
+            android:name="com.android.fileexplorer.activity.ExtractFileActivity"
+            android:exported="true"
+            android:targetActivity="com.android.fileexplorer.activity.FileActivity">
+            <intent-filter>
+                <action
+                    android:name="android.intent.action.VIEW" />
+                <category
+                    android:name="android.intent.category.DEFAULT" />
+                <data
+                    android:mimeType="application/zip"
+                    android:scheme="file" />
+                <data
+                    android:mimeType="application/rar"
+                    android:scheme="file" />
+                <data
+                    android:mimeType="application/x-rar-compressed"
+                    android:scheme="file" />
+                <data
+                    android:authorities="com.android.fileexplorer.fileprovider"
+                    android:mimeType="application/zip"
+                    android:scheme="content" />
+                <data
+                    android:authorities="com.android.fileexplorer.fileprovider"
+                    android:mimeType="application/rar"
+                    android:scheme="content" />
+                <data
+                    android:authorities="com.android.fileexplorer.fileprovider"
+                    android:mimeType="application/x-rar-compressed"
+                    android:scheme="content" />
+            </intent-filter>
+        </activity-alias>
+        <activity
+            android:theme="@style/Theme.Light.NoTitle.Activity"
+            android:name="com.android.fileexplorer.activity.FileCategoryActivity"
+            android:exported="true"
+            android:launchMode="singleTop"
+            android:screenOrientation="behind">
+            <intent-filter>
+                <action
+                    android:name="miui.intent.action.PICK_INSTALLED_APPS" />
+                <category
+                    android:name="android.intent.category.OPENABLE" />
+                <category
+                    android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity-alias
+            android:label="@string/select_pdf"
+            android:name="com.android.fileexplorer.activity.PickPdfActivity"
+            android:exported="true"
+            android:targetActivity="com.android.fileexplorer.activity.FileCategoryActivity">
+            <intent-filter>
+                <action
+                    android:name="android.intent.action.PICK" />
+                <action
+                    android:name="android.intent.action.GET_CONTENT" />
+                <category
+                    android:name="android.intent.category.DEFAULT" />
+                <category
+                    android:name="android.intent.category.OPENABLE" />
+                <data
+                    android:mimeType="pdf/*" />
+            </intent-filter>
+            <intent-filter>
+                <action
+                    android:name="miui.intent.action.PDF_PICKER" />
+                <category
+                    android:name="android.intent.category.DEFAULT" />
+                <category
+                    android:name="android.intent.category.OPENABLE" />
+            </intent-filter>
+        </activity-alias>
+        <activity-alias
+            android:label="@string/local_music"
+            android:icon="@drawable/ic_pick_music"
+            android:name="com.android.fileexplorer.activity.PickAudioActivity"
+            android:exported="true"
+            android:targetActivity="com.android.fileexplorer.activity.FileCategoryActivity">
+            <intent-filter>
+                <action
+                    android:name="android.intent.action.PICK" />
+                <action
+                    android:name="android.intent.action.GET_CONTENT" />
+                <category
+                    android:name="android.intent.category.DEFAULT" />
+                <category
+                    android:name="android.intent.category.OPENABLE" />
+                <data
+                    android:mimeType="audio/*" />
+            </intent-filter>
+            <intent-filter>
+                <action
+                    android:name="android.intent.action.RINGTONE_PICKER" />
+                <category
+                    android:name="android.intent.category.DEFAULT" />
+                <category
+                    android:name="android.intent.category.OPENABLE" />
+            </intent-filter>
+            <intent-filter>
+                <action
+                    android:name="miui.intent.action.PICK_MULTIPLE" />
+                <category
+                    android:name="android.intent.category.OPENABLE" />
+                <category
+                    android:name="android.intent.category.DEFAULT" />
+                <data
+                    android:mimeType="audio/*" />
+            </intent-filter>
+        </activity-alias>
+        <activity-alias
+            android:label="@string/local_video"
+            android:icon="@drawable/ic_pick_video"
+            android:name="com.android.fileexplorer.activity.PickVideoActivity"
+            android:exported="true"
+            android:targetActivity="com.android.fileexplorer.activity.FileCategoryActivity">
+            <intent-filter>
+                <action
+                    android:name="android.intent.action.PICK" />
+                <action
+                    android:name="android.intent.action.GET_CONTENT" />
+                <category
+                    android:name="android.intent.category.DEFAULT" />
+                <category
+                    android:name="android.intent.category.OPENABLE" />
+                <data
+                    android:mimeType="video/*" />
+            </intent-filter>
+            <intent-filter>
+                <action
+                    android:name="miui.intent.action.PICK_MULTIPLE" />
+                <category
+                    android:name="android.intent.category.OPENABLE" />
+                <category
+                    android:name="android.intent.category.DEFAULT" />
+                <data
+                    android:mimeType="video/*" />
+            </intent-filter>
+        </activity-alias>
+        <activity-alias
+            android:label="@string/local_image"
+            android:icon="@drawable/ic_pick_image"
+            android:name="com.android.fileexplorer.activity.PickImageActivity"
+            android:exported="true"
+            android:targetActivity="com.android.fileexplorer.activity.FileCategoryActivity">
+            <intent-filter>
+                <action
+                    android:name="miui.intent.action.PICK_MULTIPLE" />
+                <category
+                    android:name="android.intent.category.OPENABLE" />
+                <category
+                    android:name="android.intent.category.DEFAULT" />
+                <data
+                    android:mimeType="image/*" />
+            </intent-filter>
+        </activity-alias>
+        <activity
+            android:theme="@style/Theme.Light.Activity"
+            android:label="@string/more"
+            android:name="com.android.fileexplorer.activity.MoreCategoryActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" />
+        <activity
+            android:theme="@style/NoteTheme.WidgetList.Activity"
+            android:label="@string/widget_choose_fragment_title"
+            android:name="com.android.fileexplorer.activity.WidgetChooseActivity"
+            android:exported="true"
+            android:taskAffinity="com.android.fileexplorer.widgetTask"
+            android:excludeFromRecents="true"
+            android:launchMode="singleTop"
+            android:screenOrientation="unspecified"
+            android:configChanges="keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize"
+            android:windowSoftInputMode="adjustPan"
+            android:uiOptions="splitActionBarWhenNarrow"
+            android:resizeableActivity="false">
+            <intent-filter>
+                <action
+                    android:name="android.intent.action.VIEW" />
+                <category
+                    android:name="android.intent.category.DEFAULT" />
+                <data
+                    android:scheme="widget_edit_page" />
+            </intent-filter>
+            <meta-data
+                android:name="miui.screenOrientation"
+                android:value="1.unset,2.portrait" />
+        </activity>
+        <activity
+            android:theme="@style/NoteTheme.WidgetList.Activity"
+            android:label="@string/widget_choose_fragment_title"
+            android:name="com.android.fileexplorer.activity.PadWidgetChooseActivity"
+            android:exported="true"
+            android:taskAffinity="com.android.fileexplorer.widgetTask"
+            android:excludeFromRecents="true"
+            android:launchMode="singleInstance"
+            android:screenOrientation="unspecified"
+            android:configChanges="keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize"
+            android:windowSoftInputMode="adjustPan"
+            android:uiOptions="splitActionBarWhenNarrow">
+            <intent-filter>
+                <action
+                    android:name="android.intent.action.VIEW" />
+                <category
+                    android:name="android.intent.category.DEFAULT" />
+                <data
+                    android:scheme="pad_widget_edit_page" />
+            </intent-filter>
+            <meta-data
+                android:name="miui.screenOrientation"
+                android:value="3.unset" />
+        </activity>
+        <activity
+            android:theme="@style/Theme.Light.Activity"
+            android:label="@string/menu_item_ftp"
+            android:name="com.android.fileexplorer.activity.ServerControlActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="behind"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize" />
+        <meta-data
+            android:name="android.app.default_searchable"
+            android:value=".FileExplorerTabActivity" />
+        <service
+            android:name="com.android.fileexplorer.service.FTPServerService" />
+        <activity
+            android:theme="@style/Theme.Preference"
+            android:name="com.android.fileexplorer.activity.ServerControlPreference"
+            android:screenOrientation="behind"
+            android:configChanges="keyboardHidden|orientation|screenSize" />
+        <activity
+            android:theme="@style/Theme.Light.NoTitle.Activity"
+            android:name="com.android.fileexplorer.activity.AppTagActivity"
+            android:exported="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:theme="@style/Theme.Light.NoTitle.SearchActivity"
+            android:label=""
+            android:name="com.android.fileexplorer.activity.SearchDetailActivity"
+            android:screenOrientation="behind"
+            android:windowSoftInputMode="adjustPan">
+            <meta-data
+                android:name="miui.screenInnerOrientation"
+                android:value="unspecified" />
+        </activity>
+        <activity
+            android:theme="@style/Theme.PrivateFolder"
+            android:label="@string/private_folder"
+            android:name="com.android.fileexplorer.activity.PrivateFolderActivity"
+            android:exported="true"
+            android:excludeFromRecents="true"
+            android:screenOrientation="behind"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize" />
+        <activity
+            android:theme="@style/StorageInfoActivityThemeStyle"
+            android:label=""
+            android:name="com.android.fileexplorer.activity.StorageInfoActivity" />
+        <activity
+            android:theme="@style/Theme.ViewLarge"
+            android:label=""
+            android:name="com.android.fileexplorer.activity.ViewLargeActivity" />
+        <activity
+            android:theme="@style/ImagePreview.Theme"
+            android:label=""
+            android:name="com.android.fileexplorer.activity.ImagePreviewActivity"
+            android:screenOrientation="behind"
+            android:configChanges="orientation|screenLayout|screenSize" />
+        <activity
+            android:label="@string/upload_user_photo"
+            android:name="com.android.fileexplorer.view.crop.CropImageActivity"
+            android:screenOrientation="portrait"
+            android:configChanges="orientation|screenSize" />
+        <activity
+            android:theme="@style/Theme.Preference.Settings.Floating.Close"
+            android:label="@string/settings"
+            android:name="com.android.fileexplorer.activity.SettingActivity"
+            android:screenOrientation="behind"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize" />
+        <activity
+            android:theme="@style/Theme.Preference.Settings.Floating.Close"
+            android:label="@string/extend_service_setting"
+            android:name="com.android.fileexplorer.activity.ExtendServiceActivity"
+            android:screenOrientation="behind"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize" />
+        <activity
+            android:name="com.android.cloud.activity.RevokeOrLogoutActivity"
+            android:screenOrientation="behind"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize" />
+        <activity
+            android:theme="@style/Theme.Light.Activity"
+            android:name="com.android.fileexplorer.activity.CategoryDetailActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <provider
+            android:name="com.android.fileexplorer.provider.FileContentProvider"
+            android:permission="com.android.fileexplorer.permission.ACCESS_FILE_CONTENT"
+            android:exported="true"
+            android:authorities="com.android.fileexplorer.dao.filecontent.provider" />
+        <provider
+            android:name="com.android.fileexplorer.provider.SearchExportProvider"
+            android:exported="true"
+            android:authorities="com.android.fileexplorer.provider.searchexport" />
+        <provider
+            android:name="com.android.fileexplorer.provider.ScanProvider"
+            android:exported="true"
+            android:authorities="com.miui.fileexplorer.scanner" />
+        <provider
+            android:name="com.android.fileexplorer.provider.LazyFileProvider"
+            android:exported="false"
+            android:authorities="com.android.fileexplorer.lazyfileprovider"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+        <provider
+            android:name="com.android.fileexplorer.provider.SystemAdContentProvider"
+            android:exported="true"
+            android:authorities="com.android.fileexplorer.systemAd.splashAd" />
+        <service
+            android:name="com.android.fileexplorer.smb.StreamService"
+            android:enabled="true" />
+        <service
+            android:name="com.android.fileexplorer.service.DirParseService"
+            android:permission="com.android.fileexplorer.permission.DIRPARSE"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action
+                    android:name="com.android.fileexplorer.DirParseService" />
+            </intent-filter>
+        </service>
+        <service
+            android:name="com.android.fileexplorer.service.RecentManagerService"
+            android:permission="com.android.fileexplorer.permission.ACCESS_FILE_CONTENT"
+            android:exported="true">
+            <intent-filter>
+                <action
+                    android:name="com.android.fileexplorer.RecentManagerService" />
+            </intent-filter>
+        </service>
+        <provider
+            android:name="com.android.fileexplorer.provider.FileExplorerFileProvider"
+            android:exported="false"
+            android:authorities="com.android.fileexplorer.myprovider"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+        <receiver
+            android:name="com.android.fileexplorer.PackageReplaceReceiver"
+            android:exported="true">
+            <intent-filter>
+                <action
+                    android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.android.fileexplorer.StorageChangeReceiver"
+            android:exported="true">
+            <intent-filter>
+                <action
+                    android:name="android.os.storage.action.VOLUME_STATE_CHANGED" />
+            </intent-filter>
+        </receiver>
+        <activity
+            android:name="com.android.cloud.activity.LocalPPTTOPDFActivity" />
+        <receiver
+            android:name="com.android.cloud.receiver.AccountChangedReceiver"
+            android:exported="true">
+            <intent-filter>
+                <action
+                    android:name="android.accounts.LOGIN_ACCOUNTS_CHANGED" />
+            </intent-filter>
+        </receiver>
+        <meta-data
+            android:name="miuiWidgetVersion"
+            android:value="2" />
+        <receiver
+            android:label="@string/widget_name"
+            android:name="com.android.fileexplorer.widget.SimplePinFileWidget"
+            android:exported="true"
+            android:process=":widgetProvider">
+            <intent-filter>
+                <action
+                    android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+                <action
+                    android:name="miui.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+            <meta-data
+                android:name="miuiWidget"
+                android:value="true" />
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/simple_pin_file_widget_info" />
+            <meta-data
+                android:name="miuiWidgetRefresh"
+                android:value="exposure" />
+            <meta-data
+                android:name="miuiWidgetRefreshMinInterval"
+                android:value="10000" />
+        </receiver>
+        <activity
+            android:theme="@style/Translucent"
+            android:name="com.android.fileexplorer.activity.RequestPermissionActivity"
+            android:exported="false" />
+        <uses-library
+            android:name="micloud-sdk" />
+        <uses-library
+            android:name="org.apache.http.legacy" />
+        <service
+            android:name="com.micloud.midrive.session.service.DownloadSessionService" />
+        <service
+            android:name="com.micloud.midrive.session.service.UploadSessionService" />
+        <service
+            android:name="com.micloud.midrive.session.service.SyncSessionService" />
+        <service
+            android:name="com.micloud.midrive.session.service.SyncSessionJobService"
+            android:permission="android.permission.BIND_JOB_SERVICE" />
+        <receiver
+            android:name="com.micloud.midrive.push.PushReceiver"
+            android:exported="true">
+            <intent-filter>
+                <action
+                    android:name="com.xiaomi.micloudPush.REGISTRATION" />
+                <action
+                    android:name="com.xiaomi.micloudPush.RECEIVE" />
+            </intent-filter>
+            <meta-data
+                android:name="com.xiaomi.MicloudPush"
+                android:resource="@xml/micloud_push" />
+        </receiver>
+        <meta-data
+            android:name="com.xiaomi.mobileads.columbus.APP_KEY"
+            android:value="FILE_EXPLORER" />
+        <meta-data
+            android:name="com.xiaomi.mobileads.columbus.APP_SECRET"
+            android:value="6a75640c500194189dabc2c6b1c1a2eb" />
+        <activity
+            android:theme="@android:style/Theme.Translucent"
+            android:name="com.google.android.gms.ads.AdActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode" />
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-4062377952200160~8017942393" />
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <activity
+            android:name="com.my.target.common.MyTargetActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode" />
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <meta-data
+            android:name="viewpager2"
+            android:value="2.0" />
+        <meta-data
+            android:name="miui_private_label"
+            android:value="PRIVATE_V150" />
+        <meta-data
+            android:name="miuixpreference"
+            android:value="3.0" />
+        <meta-data
+            android:name="hybrid"
+            android:value="1.0" />
+        <meta-data
+            android:name="navigator"
+            android:value="1.0" />
+        <meta-data
+            android:name="appcompat"
+            android:value="3.0" />
+        <meta-data
+            android:name="miuixbasewidget"
+            android:value="1.0" />
+        <meta-data
+            android:name="com.miui.maml.sdk"
+            android:value="true" />
+        <meta-data
+            android:name="miuixstretchablewidget"
+            android:value="1.0" />
+        <meta-data
+            android:name="pickerwidget"
+            android:value="1.0" />
+        <meta-data
+            android:name="slidingwidget"
+            android:value="1.0" />
+        <meta-data
+            android:name="popupwidget"
+            android:value="1.0" />
+        <meta-data
+            android:name="androidbasewidget"
+            android:value="1.0" />
+        <meta-data
+            android:name="viewpager"
+            android:value="2.0" />
+        <meta-data
+            android:name="navigation"
+            android:value="1.0" />
+        <service
+            android:name="com.google.firebase.components.ComponentDiscoveryService"
+            android:exported="false"
+            android:directBootAware="true">
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.crashlytics.CrashlyticsRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.dynamicloading.DynamicLoadingRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+        </service>
+        <provider
+            android:name="com.google.firebase.provider.FirebaseInitProvider"
+            android:exported="false"
+            android:authorities="com.android.fileexplorer.firebaseinitprovider"
+            android:initOrder="100"
+            android:directBootAware="true" />
+        <uses-library
+            android:name="androidx.window.extensions"
+            android:required="false" />
+        <uses-library
+            android:name="androidx.window.sidecar"
+            android:required="false" />
+        <meta-data
+            android:name="nestedheader"
+            android:value="3.0" />
+        <meta-data
+            android:name="recyclerview"
+            android:value="2.0" />
+        <meta-data
+            android:name="recyclerview_animator"
+            android:value="2.0" />
+        <meta-data
+            android:name="pinyin"
+            android:value="1.0" />
+        <meta-data
+            android:name="springback"
+            android:value="3.0" />
+        <meta-data
+            android:name="nest"
+            android:value="2.0" />
+        <meta-data
+            android:name="haptic"
+            android:value="1.0" />
+        <meta-data
+            android:name="graphics"
+            android:value="2.0" />
+        <meta-data
+            android:name="cardview"
+            android:value="1.0" />
+        <meta-data
+            android:name="smooth"
+            android:value="1.0" />
+        <meta-data
+            android:name="core"
+            android:value="2.0" />
+        <meta-data
+            android:name="spring"
+            android:value="1.0" />
+        <provider
+            android:name="androidx.startup.InitializationProvider"
+            android:exported="false"
+            android:authorities="com.android.fileexplorer.androidx-startup">
+            <meta-data
+                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+                android:value="androidx.startup" />
+            <meta-data
+                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+                android:value="androidx.startup" />
+        </provider>
+        <service
+            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+            android:exported="false">
+            <meta-data
+                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+                android:value="cct" />
+        </service>
+        <service
+            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+            android:permission="android.permission.BIND_JOB_SERVICE"
+            android:exported="false" />
+        <receiver
+            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+            android:exported="false" />
+        <meta-data
+            android:name="dynamicoverscroller"
+            android:value="2.0" />
+        <meta-data
+            android:name="folme"
+            android:value="2.0" />
+        <meta-data
+            android:name="animation"
+            android:value="1.0" />
+        <meta-data
+            android:name="devicebaseinfo"
+            android:value="1.0" />
+        <meta-data
+            android:name="fileicon"
+            android:value="1.0" />
+        <meta-data
+            android:name="theme"
+            android:value="1.0" />
+    </application>
+</manifest>

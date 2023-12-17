@@ -1,0 +1,18 @@
+{
+  "styleList": [
+    {
+      "adType": 1,
+      "tagid": "1.301.1.1",
+      "tid": "2.2",
+      "sid": "2.2.103",
+      "styleInfo": "{\"title\":{\"distance\":\"45,0,21,0\",\"size\":\"14\",\"color\":\"#000000\",\"darkFontColor\":\"#FFFFFF\",\"bold\":\"false\",\"interaction\":\"true\"},\"summary\":{\"distance\":\"15,0,21,0\",\"size\":\"12\",\"color\":\"#9B9B9B\",\"darkFontColor\":\"#9B9B9B\",\"bold\":\"false\",\"interaction\":\"true\"},\"img\":{\"distance\":\"39,0,39,0\",\"width\":\"-1\",\"ratio\":\"1.9\",\"strategy\":\"2\",\"radius\":\"4\",\"interaction\":\"true\"},\"icon\":{\"distance\":\"39,0,39,0\",\"size\":\"120\",\"radius\":\"4\",\"interaction\":\"true\"},\"cta\":{\"distance\":\"30,0,39,0\",\"padding\":\"0,0,0,0\",\"size\":\"14\",\"bold\":\"true\",\"fontColor\":\"#F8F5F5\",\"darkFontColor\":\"#F8F5F5\",\"btnSize\":\"1002,105\",\"btnColor\":\"#0496FF\",\"darkBtnColor\":\"#0496FF\",\"btnTransparent\":\"1\",\"borderRadius\":\"18\",\"borderThickness\":\"0\",\"borderColor\":\"#FFFFFF\",\"darkBorderColor\":\"#FFFFFF\"},\"adx\":{\"distance\":\"48,0,21,0\",\"interaction\":\"0\"},\"adCard\":{\"color\":\"#FFFFFF\",\"darkTransparent\":\"1\",\"transparent\":\"1\",\"borderThickness\":\"0\",\"borderColor\":\"#FFFFFF\"},\"animation\":{\"toColor\":\"#FFFFFF\",\"start\":\"0\",\"duration\":\"0\"},\"appstore_info\":{\"text\":\"\",\"intltags\":0}}"
+    },
+    {
+      "adType": 1,
+      "tagid": "1.301.1.2",
+      "tid": "2.2",
+      "sid": "2.2.104",
+      "styleInfo": "{\"title\":{\"distance\":\"45,0,21,0\",\"size\":\"14\",\"color\":\"#000000\",\"darkFontColor\":\"#FFFFFF\",\"bold\":\"false\",\"interaction\":\"true\"},\"summary\":{\"distance\":\"15,0,21,0\",\"size\":\"12\",\"color\":\"#9B9B9B\",\"darkFontColor\":\"#9B9B9B\",\"bold\":\"false\",\"interaction\":\"true\"},\"img\":{\"distance\":\"39,0,39,0\",\"width\":\"-1\",\"ratio\":\"1.9\",\"strategy\":\"2\",\"radius\":\"4\",\"interaction\":\"true\"},\"icon\":{\"distance\":\"39,0,39,0\",\"size\":\"120\",\"radius\":\"4\",\"interaction\":\"true\"},\"cta\":{\"distance\":\"30,0,39,0\",\"padding\":\"0,0,0,0\",\"size\":\"14\",\"bold\":\"true\",\"fontColor\":\"#F8F5F5\",\"darkFontColor\":\"#F8F5F5\",\"btnSize\":\"1002,105\",\"btnColor\":\"#0496FF\",\"darkBtnColor\":\"#0496FF\",\"btnTransparent\":\"1\",\"borderRadius\":\"18\",\"borderThickness\":\"0\",\"borderColor\":\"#FFFFFF\",\"darkBorderColor\":\"#FFFFFF\"},\"adx\":{\"distance\":\"48,0,21,0\",\"interaction\":\"0\"},\"adCard\":{\"color\":\"#FFFFFF\",\"darkTransparent\":\"1\",\"transparent\":\"1\",\"borderThickness\":\"0\",\"borderColor\":\"#FFFFFF\"},\"animation\":{\"toColor\":\"#FFFFFF\",\"start\":\"0\",\"duration\":\"0\"},\"appstore_info\":{\"text\":\"\",\"intltags\":0}}"
+    }
+  ]
+}

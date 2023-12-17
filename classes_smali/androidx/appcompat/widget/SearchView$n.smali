@@ -1,0 +1,30 @@
+.class public interface abstract Landroidx/appcompat/widget/SearchView$n;
+.super Ljava/lang/Object;
+.source "SearchView.java"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Landroidx/appcompat/widget/SearchView;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x609
+    name = "n"
+.end annotation
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .registers 1
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public abstract a()Z
+.end method
+
+.method public abstract b()Z
+.end method
